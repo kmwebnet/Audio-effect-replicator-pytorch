@@ -1,0 +1,6 @@
+adabound==0.0.5
+numpy==1.21.4
+PyYAML==6.0
+torch==1.10.0
+torchinfo==1.5.3
+tqdm==4.62.3

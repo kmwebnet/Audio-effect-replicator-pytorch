@@ -1,0 +1,13 @@
+---
+input_timesteps: 960
+output_timesteps: 480
+batch_size: 64
+max_epochs: 10000
+patience: 50
+# [clean sound, effected sound]
+train_data:
+  - [./data/train_y2.wav, ./data/train_z2.wav]
+  - [./data/train_y3.wav, ./data/train_z3.wav]
+  - [./data/train_y4.wav, ./data/train_z4.wav]
+val_data:
+  - [./data/val_y.wav, ./data/val_z.wav]
